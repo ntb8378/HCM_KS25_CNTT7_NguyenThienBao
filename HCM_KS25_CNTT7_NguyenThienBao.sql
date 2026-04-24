@@ -15,7 +15,7 @@ create table Products (
     category_id int,
     
 	FOREIGN KEY (category_id)
-    REFERENCES Persons(category_id)
+    REFERENCES Categories(category_id)
 );
 
 insert into Categories(category_name) 
